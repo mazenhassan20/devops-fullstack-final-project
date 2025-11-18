@@ -1,0 +1,53 @@
+# ===== Java / Maven =====
+target/
+*.class
+*.jar
+*.war
+*.ear
+*.iml
+*.log
+*.jmod
+*.class
+
+# Maven / IntelliJ / IDE files
+.idea/
+*.ipr
+*.iws
+*.DS_Store
+*.log
+.mvn/wrapper/maven-wrapper.jar
+
+# ===== Spring Boot =====
+spring-boot-*.jar
+spring-boot-*.war
+
+# ===== Docker =====
+*.env
+*.dockerignore
+Dockerfile
+docker-compose.override.yml
+
+# ===== Helm =====
+helm/**/charts/*.tgz      # ignore packaged charts
+helm/**/Chart.lock        # ignore lock files
+
+# ===== Kubernetes / Kustomize =====
+k8s/**/kustomization.yaml
+*.yaml                  # optional: only ignore generated manifests if any
+*.yml
+
+# ===== VSCode / Editors =====
+.vscode/
+*.swp
+*~
+
+# ===== Logs / Temporary =====
+logs/
+*.log
+tmp/
+*.tmp
+
+# ===== Static / Resources (optional) =====
+# Keep static resources if part of repo, ignore compiled/generated if any
+target/classes/static/
+target/classes/templates/
