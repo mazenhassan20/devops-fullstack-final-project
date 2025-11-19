@@ -1,2 +1,0 @@
-Grafana: NodePort {{ .Values.grafana.service.port }}
-Prometheus: NodePort {{ .Values.prometheus.service.port }}

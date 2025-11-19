@@ -1,1 +1,0 @@
-Twitter App deployed at ClusterIP: {{ .Values.service.port }}
