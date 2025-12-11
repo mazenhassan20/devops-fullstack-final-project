@@ -207,6 +207,7 @@ Images include:
 
 ![EKS + ArgoCD](images/eks-argocd.jpg)
 ![EKS Fullstack View](images/eks-argocd-fullstack.jpg)
+![IMG-20251201-WA0001](https://github.com/user-attachments/assets/5a04d723-533b-4b18-bd20-884cbfbf0816)
 
 
 ---
